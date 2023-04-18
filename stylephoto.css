@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "DynaPuff";
+    src: url("font/DynaPuff-SemiBold.ttf");
+    src: url("font/DynaPuff-Regular.ttf");
+}
+
+.content{
+    max-width: 850px;
+    margin: auto;
+}
+
+body{
+    background-color: #f9f6f3;
+}
+.buttons{
+    margin: 50px;
+    max-width: 850px;
+    
+}
+button{
+    background-color: black; 
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+}
+
+#main-Image {
+    height: 600px;
+    width: 860px;
+    border: 5px black;
+    justify-content: center;
+    
+}
+#mainImage {
+    height: 600px;
+    width: 860px;
+    border: 10px solid black;
+    border-radius: 15px;
+  
+}
+#smImage{
+    height: 130px;
+    width: 120px;
+    margin: 6;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+h1{
+    font-size: 80px;
+    font-family: "DynaPuff";
+    text-align: center;
+    color: black;
+  
+}
+h3{
+    text-align: center;
+    color: black;
+    font-family: "DynaPuff";
+}
